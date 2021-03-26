@@ -1,14 +1,14 @@
                 <img src="/resource/images/sub-bnnr01.png" alt="">
                 <div class="cont">
                     <span>TOP RETINA CENTER</span>
-                    <h2>커뮤니티</h2>
+                    <h2>MEMBER</h2>
                     <!-- <p></p> -->
                     <i></i>
                     <div id="location">
                         <ul>
-                            <li><a href="#">공지사항</a></li>
-                            <li><a href="#">온라인상담</a></li>
-                            <li><a href="#">수술후기</a></li>
+                            <li><a href="/member/login.html">간편로그인</a></li>
+                            <li><a href="/member/login.html">개인정보취급방침</a></li>
+                            <li><a href="/member/login.html">이용안내</a></li>
                         </ul>
                     </div>
                 </div>

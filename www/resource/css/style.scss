@@ -12,6 +12,13 @@
 }
 
 /* 공통요소 */
+.mb-show {
+	display: none !important;
+}
+.mb-hide {
+	display: block !important;
+}
+
 .inner {
 	width: 100%;
 	max-width: 1330px;
@@ -1781,3 +1788,66 @@ p.help-tit {
 		}//end .step-list
 	}//end .sub-inner
 }//end #middle-bnnr
+
+/* 로그인 */
+#member-box {
+	max-width: 800px;
+	margin: 0 auto;
+	padding:60px 0;
+	border:1px solid #ddd;
+	box-sizing: border-box;
+	.mem-tit {
+		margin-bottom: 20px;
+		font-weight: normal;
+		text-align: center;
+		span {
+			display: block;
+			margin-top: 30px;
+			font-size: 26px;
+			line-height: 1.07;
+			letter-spacing: -0.75px;
+			color: #212121;
+		}//end span
+		small {
+			display: block;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 2;
+			letter-spacing: 0.8px;
+			text-align: center;
+		}//end small
+	}//end .mem-tit
+	#btn-box {
+		justify-content: center;
+		.btn {
+			width: 304px;
+			height: 70px;
+			font-weight: 500;
+			line-height: 70px;
+			img {
+				margin-top: -3px;
+				margin-right: 10px;
+			}
+			&.naver {
+				border-color: #2DB400;
+				background-color: #2DB400;
+			}
+			&.kakao {
+				color:#3A1D1D;
+				border-color: #F7E600;
+				background-color: #F7E600;
+			}
+		}
+	}
+}//end #member-box
+
+
+@media screen and (max-width:768px) {
+	/* show-hide */
+	.mb-show {
+		display: block !important;
+	}
+	.mb-hide {
+		display: none !important;
+	}
+}

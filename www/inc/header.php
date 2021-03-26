@@ -30,7 +30,7 @@
 						</a>
 					</div>
 					<div class="nav-login">
-						<a href="#" class="login">간편로그인</a>
+						<a href="/member/login.html" class="login">간편로그인</a>
 						<!-- 
 											<span class="username">mediinside</span>
 											<a href="#" class="logout">로그아웃</a>
