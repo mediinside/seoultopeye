@@ -10,6 +10,15 @@
   color: #333 !important; }
 
 /* 공통요소 */
+<<<<<<< HEAD
+=======
+.mb-show {
+  display: none !important; }
+
+.mb-hide {
+  display: block !important; }
+
+>>>>>>> 8a52006d0a5cc61a01ae044ed7c091d3e89b7c0d
 .inner {
   width: 100%;
   max-width: 1330px;
@@ -1410,4 +1419,58 @@ p.help-tit {
           text-align: center;
           color: #fff; }
 
+<<<<<<< HEAD
+=======
+/* 로그인 */
+#member-box {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box; }
+  #member-box .mem-tit {
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center; }
+    #member-box .mem-tit span {
+      display: block;
+      margin-top: 30px;
+      font-size: 26px;
+      line-height: 1.07;
+      letter-spacing: -0.75px;
+      color: #212121; }
+    #member-box .mem-tit small {
+      display: block;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2;
+      letter-spacing: 0.8px;
+      text-align: center; }
+  #member-box #btn-box {
+    justify-content: center; }
+    #member-box #btn-box .btn {
+      width: 304px;
+      height: 70px;
+      font-weight: 500;
+      line-height: 70px; }
+      #member-box #btn-box .btn img {
+        margin-top: -3px;
+        margin-right: 10px; }
+      #member-box #btn-box .btn.naver {
+        border-color: #2DB400;
+        background-color: #2DB400; }
+      #member-box #btn-box .btn.kakao {
+        color: #3A1D1D;
+        border-color: #F7E600;
+        background-color: #F7E600; }
+
+@media screen and (max-width: 768px) {
+  /* show-hide */
+  .mb-show {
+    display: block !important; }
+
+  .mb-hide {
+    display: none !important; } }
+
+>>>>>>> 8a52006d0a5cc61a01ae044ed7c091d3e89b7c0d
 /*# sourceMappingURL=style.css.map */
