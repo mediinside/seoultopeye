@@ -1,0 +1,94 @@
+<?php include_once "../inc/head.php"?>
+
+<body>
+    <div id="wrap">
+        <?php include_once "../inc/header.php"?>
+        <div id="container">
+            <div id="sub-bnnr" data-index="6">
+                <?php include_once "location.php"?>
+            </div>
+            <div class="contents">
+                <h3 class="page-tit">
+                    오시는 길
+                    <i></i>
+                </h3>
+                <div class="sub-inner">
+                    <div id="map">
+                        <!-- * 카카오맵 - 지도퍼가기 -->
+                        <!-- 1. 지도 노드 -->
+                        <div id="daumRoughmapContainer1617001172470" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                        
+                        <!--
+                        	2. 설치 스크립트
+                        	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                        -->
+                        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                        
+                        <!-- 3. 실행 스크립트 -->
+                        <script charset="UTF-8">
+                            new daum.roughmap.Lander({
+                                "timestamp": "1617001172470",
+                                "key": "253h2",
+                                "mapHeight": "600"
+                            }).render();
+                        </script>
+                    </div>
+                    <div class="btnWrap">
+                        <span>
+                            <a href="http://naver.me/F9QhlDEV" class="btnTypeNaver" target="_blank">네이버 길찾기</a>
+                        </span>
+                        <span>
+                            <a href="http://kko.to/McdnfMVYj" class="btnTypeKakao" target="_blank">카카오 길찾기</a>
+                        </span>
+                    </div>
+                    <div class="map-addr">
+                        <div>
+                            <img src="/resource/images/place.png" alt="">
+                            <span>
+                                <small>도로명</small> 청주시 흥덕구 강서로 122 1층<br>
+                                <small>지번</small> 청주시 흥덕구 강서동 493 1층<br>
+                                <b>가경동 시외버스터미널 맞은편 하이마트 옆, 1층</b>
+                            </span>
+                        </div>
+                        <div>
+                            <img src="/resource/images/parking.png" alt="">
+                            <span>
+                                <small>주차안내</small> 병원 건물 지하주차장 이용
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cont-box">
+                        <h4 class="cont-label">버스 이용시</h4>
+                        <div class="cont">
+                            <p>
+                                <b class="point-lb">고속버스터미널(2108) / 119m</b><br>
+                                일반 : 500, 511, 516 / 좌석 502 / 급행 747<br>
+                                <br>
+                                <b class="point-lb">하나병원(2106) / 149m</b><br>
+                                일반 50-2, 843 / 좌석 105, 105-1<br>
+                                <br>
+                                <b class="point-lb">시외버스터미널(2055) / 153m</b><br>
+                                일반 005, 014, 20-2, 311, 311-1 / 좌석 105, 105-1, 502 / 급행 747<br>
+                                <br>
+                                <b class="point-lb">고속버스터미널(2109) / 186m</b><br>
+                                일반 003, 20-1, 311, 311-1 / 좌석 502 / 급행 747<br>
+                                <br>
+                                <b class="point-lb">고속 시외버스터미널(2056) / 229m</b><br>
+                                일반 001, 007, 010, 20-1, 311 / 좌석 105, 105-1 / 급행 747<br>
+                                <br>
+                                <b class="point-lb">하나병원 세종병원(2107) / 238m</b><br>
+                                일반 005, 50-1 / 죄석 105, 105-1<br>
+                                <br>
+                                <b class="point-lb">서청주농협(2341) / 246m</b><br>
+                                일반 500, 511, 516 / 좌석 502
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php include_once "../inc/footer.php"?>
+    </div>
+</body>
+
+</html>
