@@ -38,6 +38,8 @@
     background-color: #f0f0f0; }
   .contents.bg-gray-gradation {
     background: linear-gradient(to bottom, #f0f0f0 0, #f0f0f0 50%, #fff 50%, #fff 100%); }
+  .contents.bg-gray-gradation2 {
+    background: linear-gradient(to bottom, #f0f0f0 0, #f0f0f0 80%, #fff 80%, #fff 100%); }
 
 .dott li {
   position: relative;

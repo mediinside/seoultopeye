@@ -2,13 +2,16 @@
 			<div class="top">
 				<ul>
 					<li>
-						<a href="#">병원소개</a>
+						<a href="/intro/page01.html">병원소개</a>
 					</li>
 					<li>
-						<a href="#">개인정보취급방침</a>
+						<a href="/intro/page06.html">오시는길</a>
 					</li>
 					<li>
-						<a href="#">오시는길</a>
+						<a href="/member/agree1.html">개인정보취급방침</a>
+					</li>
+					<li>
+						<a href="/member/agree2.html">이용안내</a>
 					</li>
 				</ul>
 			</div>
