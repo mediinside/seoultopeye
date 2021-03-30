@@ -158,7 +158,8 @@
 					<div class="bg"></div>
 				</div>
 			</div>
-
+			<form action="?" id="frm_ps" name="frm_ps" method="post" >
+				<input type="hidden" value="PS_REG" id="mode" name="mode">
 			<div id="info">
 				<div class="inner">
 					<div class="box left">
@@ -167,15 +168,15 @@
 					<div class="box center">
 						<h3>간편 상담 신청</h3>
 						<label for="ck">
-							<input id="ck" type="checkbox">
+							<input id="ck" type="checkbox" name="agree" >
 							개인정보 수집과 이용에 동의합니다.
 						</label>
 						<select>
 							<option value="">진료과목 선택</option>
 						</select>
-						<input type="text" placeholder="이름">
-						<input type="text" placeholder="연락처">
-						<a href="#">신청하기</a>
+						<input type="text" placeholder="이름" name="tfc_name" id="name">
+						<input type="text" placeholder="연락처" name="tfc_mobile" id="phone">
+						<a href="#" id="img_submit">신청하기</a>
 						<p>
 							*문의 주신 사항은 공휴일을 제외한 일에 최대한 빠른 답변
 							드리도록 노력하겠습니다.
@@ -223,5 +224,33 @@
 		</div>
 		<?php include_once "./inc/footer.php"?>
 	</div>
+	<script>
+
+$(document).ready(function(){
+	
+	$('#img_submit').click(function(){
+		if($('#name').val() == '')	{
+			alert('이름을 입력해주세요');
+			$('#name').focus();
+			return false;
+		}
+		if($('#phone').val() == '')	{
+			alert('연락처를 입력해주세요');
+			$('#phone').focus();
+			return false;
+		}
+		if($('input:checkbox[name="agree"]:checked').val() == undefined ) {
+			alert("개인정보 취급 방침에 동의해 주세요.");
+			return false;
+		}
+		$('#frm_ps').attr('action','/admin/phone/proc/phone_proc.php');
+		$('#frm_ps').submit();
+		return false;
+	});
+
+	
+});
+
+</script>
 </body>
 </html>
