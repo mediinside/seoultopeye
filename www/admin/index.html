@@ -1,0 +1,19 @@
+<?php
+	include_once("../_init.php");
+	include_once($GP -> INC_ADM_PATH."/head.php");
+
+	if($_SESSION['adminid']){
+        $C_Func->go_replace("/admin/bbs/bbs_list.php?m_tab=2");
+    }
+	
+?>
+<body>
+<div class="Wrap">
+		<? include_once($GP -> INC_ADM_PATH."/header.php"); ?>
+		<div class="boxContentBody">
+		</div>		
+		<? include_once($GP -> INC_ADM_PATH."/footer.php"); ?>
+	</div>
+</div>
+</body>
+</html>

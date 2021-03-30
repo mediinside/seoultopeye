@@ -1,0 +1,79 @@
+<?php include_once "../inc/head.php"; ?>
+</head>
+
+<body>
+	<div id="wrap" class="sub">
+		<?php include_once "../inc/header.php"; ?>
+		<div id="sub-bnnr">
+			<img src="/resource/images/login-bnnr.png" alt="" class="mb-hide">
+			<img src="/resource/images/login-bnnr-m.png" alt="" class="mb-show">
+			<h2>
+				<small>라팡산부인과</small>
+				<span>개인정보처리방침</span>
+			</h2>
+		</div>
+		<div id="container-box" class="sub">
+			<section class="container">
+				<div id="location" class="on">
+					<!-- PC -->
+					<a href="/" class="home">
+						<img src="/resource/images/home.png" alt="처음으로">
+					</a>
+					<ul>
+						<!-- 리스트 -->
+						<li>
+							<a href="/member/login.html">간편로그인</a>
+						</li>
+						<li>
+							<a href="/member/nonpay.html">비급여안내</a>
+						</li>
+						<li>
+							<a href="/member/agree.html">이용약관</a>
+						</li>
+						<li class="on">
+							<a href="/member/agree2.html">개인정보처리방침</a>
+						</li>
+					</ul>
+					<!-- 모바일 -->
+					<div class="section mb-show">
+						<div class="depth dp1">
+							<a href="javascript:void(0);">
+								MEMBER<i class="ip-icon-location-dropdown"></i>
+							</a>
+							<ul class="dp-section">
+								<li><a href="/member/login.html"><span>MEMBER</span></a></li>
+							</ul>
+						</div>
+						<div class="depth dp2">
+							<a href="javascript:void(0);">
+								개인정보처리방침<i class="ip-icon-location-dropdown"></i>
+							</a>
+							<ul class="dp-section">
+								<li><a href="/member/login.html"><span>간편로그인</span></a></li>
+								<li><a href="/member/nonpay.html"><span>비급여안내</span></a></li>
+								<li><a href="/member/agree.html"><span>이용약관</span></a></li>
+								<li><a href="/member/agree2.html"><span>개인정보처리방침</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- //end #location -->
+				<div id="introduce">
+					<h3 class="sub-title">
+						개인정보처리방침
+						<img src="/resource/images/title-line.png" alt="">
+					</h3>
+					<div
+						style="max-width:1000px;margin:0 auto;padding:0 50px 30px;border:1px solid #ccc;white-space:pre-wrap;">
+						<?php include_once "agree2.txt"; ?>
+					</div>
+				</div>
+			</section>
+		</div>
+		<?php include_once "../inc/sub-guide.php"; ?>
+		<?php include_once "../inc/footer.php"; ?>
+	</div>
+	<!-- //end #wrap -->
+</body>
+
+</html>

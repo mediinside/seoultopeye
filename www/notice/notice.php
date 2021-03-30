@@ -1,4 +1,21 @@
-<?php include_once "../inc/head.php"?>
+<?php
+include_once  '../_init.php';
+include_once $GP -> INC_WWW . '/count_inc.php';
+
+
+include_once "../inc/head.php";
+
+$index_page = "notice.php";
+$query_page = "query.php";
+
+$jb_code = $_GET["jb_code"];
+
+if($jb_code == "10"){$title = "공지사항";}
+elseif ($jb_code == "20") {$title = "온라인상담";}
+elseif ($jb_code == "30") {$title = "수술후기";}
+
+
+?>
 <style>
 	@media screen and (max-width:600px){
 		.s-inner {padding:0;}
@@ -23,13 +40,14 @@
             </div>
             <div class="contents" style="padding-bottom:0;">
                 <h3 class="page-tit">
-                    제목이 들어갑니다.(공지사항/온라인상담/수술후기)
+                   <?=$title?>
                     <i></i>
                 </h3>
             </div>
 			<div class="contents">
 				<div class="sub-inner">
 					<!-- 게시판 영역 -->
+					<?php include $GP -> INC_PATH ."/board_inc.php"; ?>   
 				</div>
 			</div>
         </div>

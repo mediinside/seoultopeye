@@ -154,13 +154,13 @@
 						<a href="#">커뮤니티</a>
 						<ul class="sub-menu">
 							<li>
-								<a href="">공지사항</a>
+								<a href="/notice/notice.php?jb_code=10">공지사항</a>
 							</li>
                             <li>
-								<a href="">온라인상담</a>
+								<a href="/notice/notice.php?jb_code=20">온라인상담</a>
 							</li>
                             <li>
-								<a href="">수술후기</a>
+								<a href="/notice/notice.php?jb_code=30">수술후기</a>
 							</li>
 						</ul>
 					</li>
