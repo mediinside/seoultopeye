@@ -9,8 +9,8 @@
                     <i></i>
                     <div id="location">
                         <ul>
-                            <li><a href="/eyemenu01/page01.html">녹내장이란?</a></li>
-                            <li><a href="/eyemenu01/page02.html">녹내장치료</a></li>
+                            <li><a href="/eyemenu03/page01.html">녹내장이란?</a></li>
+                            <li><a href="/eyemenu03/page02.html">녹내장치료</a></li>
                         </ul>
                     </div>
                 </div>

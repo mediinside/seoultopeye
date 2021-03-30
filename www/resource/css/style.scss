@@ -41,6 +41,9 @@
 	&.bg-gray {
 		background-color: #f0f0f0;
 	}
+	&.bg-gray-gradation {
+		background: linear-gradient(to bottom, #f0f0f0 0, #f0f0f0 50%,#fff 50%, #fff 100%);
+	}
 }
 
 .dott {
@@ -61,6 +64,47 @@
 		}
 	}//end li
 }//end .dott
+.middot-list {
+	padding: 10px 0;
+	li {
+		position: relative;
+		margin-bottom: 6px;
+		padding-left: 10px;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 30px;
+		word-break: keep-all;
+		box-sizing: border-box;
+		&:before {
+			display: inline-block;
+			position: absolute;
+			top: 12px;
+			left: 0;
+			width: 3px;
+			height: 3px;
+			border-radius: 100%;
+			background-color: #333;
+			vertical-align: middle;
+			content: '';
+		}
+	}
+
+	&.half {
+		&:after {
+			overflow: hidden;
+			display: block;
+			height: 0;
+			clear: both;
+			content: '';
+		}
+		li {
+			width: 50%;
+			float: left;
+			padding-right: 20px;
+			box-sizing: border-box;
+		}
+	}
+}//end .middot-list
 
 .flex-list-01 {
 	display: flex;
@@ -77,6 +121,7 @@
 			letter-spacing: -1px;
 			text-align: left;
 			color: #333333;
+			word-break: keep-all;
 		}//end .text
 		.col-list {
 			ul {
@@ -231,6 +276,8 @@
 			}//end p
 			.text {
 				padding:35px 0;
+				font-size: 20px;
+				line-height: 1.6;
 				text-align: center;
 				box-sizing: border-box;
 				> img {
@@ -268,7 +315,7 @@
 			text-align: center;
 		}
 	}
-	li {
+	> li {
 		max-width: 377px;
 		margin: 0 16px 33px;
 		border:1px solid #eee;
@@ -293,10 +340,39 @@
 				line-height: 1.4;
 				letter-spacing: -0.85px;
 				color: #939393;
+				word-break: keep-all;
 			}//end span
 		}//end .text
 	}//end li
 }//end .flex-list-05
+
+.flex-list-06 {
+	display: flex;
+	padding:50px 0;
+	box-sizing: border-box;
+	background-color: #2f65bd;
+	li {
+		width: 100%;
+		padding:0 60px;
+		border-right: 1px solid rgba(255,255,255,0.5);
+		> p {
+			font-size: 30px;
+			font-weight: 500;
+			line-height: 1.4;
+			letter-spacing: -1.5px;
+			color: #ffffff;
+		}
+		> span {
+			display: block;
+			margin-top: 20px;
+			font-size: 20px;
+			line-height: 1.6;
+			letter-spacing: -1px;
+			text-align: left;
+			color: #ffffff;
+		}
+	}//end li
+}//end .flex-list-06
 
 .flex-normal-list {
 	display: flex;
@@ -455,6 +531,13 @@
 		}
 	}//end li
 }//end .z-list
+
+.img-box {
+	text-align: center;
+	img {
+		max-width: 100%;
+	}
+}
 
 
 /* 

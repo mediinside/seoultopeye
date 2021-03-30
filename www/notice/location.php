@@ -1,4 +1,4 @@
-                <img src="/resource/images/sub-bnnr01.png" alt="">
+                <img src="/resource/images/sub-bnnr06.png" alt="">
                 <div class="cont">
                     <span>TOP RETINA CENTER</span>
                     <h2>커뮤니티</h2>

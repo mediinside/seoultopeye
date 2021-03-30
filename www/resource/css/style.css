@@ -36,6 +36,8 @@
     border-bottom: 1px solid #ddd; }
   .contents.bg-gray {
     background-color: #f0f0f0; }
+  .contents.bg-gray-gradation {
+    background: linear-gradient(to bottom, #f0f0f0 0, #f0f0f0 50%, #fff 50%, #fff 100%); }
 
 .dott li {
   position: relative;
@@ -51,6 +53,40 @@
   .dott li:last-of-type {
     margin-bottom: 0; }
 
+.middot-list {
+  padding: 10px 0; }
+  .middot-list li {
+    position: relative;
+    margin-bottom: 6px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    word-break: keep-all;
+    box-sizing: border-box; }
+    .middot-list li:before {
+      display: inline-block;
+      position: absolute;
+      top: 12px;
+      left: 0;
+      width: 3px;
+      height: 3px;
+      border-radius: 100%;
+      background-color: #333;
+      vertical-align: middle;
+      content: ''; }
+  .middot-list.half:after {
+    overflow: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+    content: ''; }
+  .middot-list.half li {
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box; }
+
 .flex-list-01 {
   display: flex;
   justify-content: space-between;
@@ -64,7 +100,8 @@
       line-height: 1.5;
       letter-spacing: -1px;
       text-align: left;
-      color: #333333; }
+      color: #333333;
+      word-break: keep-all; }
     .flex-list-01 .right .col-list ul li {
       padding-left: 10%;
       text-align: left; }
@@ -193,6 +230,8 @@
       .flex-list-04.ver2 .left .text,
       .flex-list-04.ver2 .right .text {
         padding: 35px 0;
+        font-size: 20px;
+        line-height: 1.6;
         text-align: center;
         box-sizing: border-box; }
         .flex-list-04.ver2 .left .text > img,
@@ -217,29 +256,54 @@
     margin-top: 60px; }
   .flex-list-05.text-center * {
     text-align: center; }
-  .flex-list-05 li {
+  .flex-list-05 > li {
     max-width: 377px;
     margin: 0 16px 33px;
     border: 1px solid #eee;
     box-sizing: border-box; }
-    .flex-list-05 li > img {
+    .flex-list-05 > li > img {
       max-width: 100%; }
-    .flex-list-05 li .text {
+    .flex-list-05 > li .text {
       padding: 30px;
       background-color: #fff; }
-      .flex-list-05 li .text > p {
+      .flex-list-05 > li .text > p {
         font-size: 22px;
         font-weight: 500;
         line-height: 1;
         letter-spacing: -1.1px;
         color: #333333; }
-      .flex-list-05 li .text > span {
+      .flex-list-05 > li .text > span {
         display: block;
         margin-top: 10px;
         font-size: 17px;
         line-height: 1.4;
         letter-spacing: -0.85px;
-        color: #939393; }
+        color: #939393;
+        word-break: keep-all; }
+
+.flex-list-06 {
+  display: flex;
+  padding: 50px 0;
+  box-sizing: border-box;
+  background-color: #2f65bd; }
+  .flex-list-06 li {
+    width: 100%;
+    padding: 0 60px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5); }
+    .flex-list-06 li > p {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1.4;
+      letter-spacing: -1.5px;
+      color: #ffffff; }
+    .flex-list-06 li > span {
+      display: block;
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 1.6;
+      letter-spacing: -1px;
+      text-align: left;
+      color: #ffffff; }
 
 .flex-normal-list {
   display: flex;
@@ -355,6 +419,11 @@
       color: #fff; }
     .z-list li.bg-green .text > span {
       color: #fff; }
+
+.img-box {
+  text-align: center; }
+  .img-box img {
+    max-width: 100%; }
 
 /* 
 	Quick
