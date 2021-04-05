@@ -1,14 +1,14 @@
         <div id="quick">
-			<a href="#" class="icon1">
+			<a href="/notice/notice.php?jb_code=10" class="icon1">
 				<i></i><span>공지사항</span>
 			</a>
-			<a href="#" class="icon2">
-				<i></i><span>진료예약</span>
+			<a href="/notice/notice.php?jb_code=20" class="icon2">
+				<i></i><span>온라인상담</span>
 			</a>
-			<a href="#" class="icon3">
-				<i></i><span>진료시간</span>
+			<a href="/intro/page05.html" class="icon3">
+				<i></i><span>진료안내</span>
 			</a>
-			<a href="#" class="icon4">
+			<a href="/intro/page06.html" class="icon4">
 				<i></i><span>오시는길</span>
 			</a>
 			<a href="#" class="blog" target="_blank">
@@ -60,11 +60,11 @@
 				</a>
 			</div>
 			<div class="nav-bottom">
-				<ul class="menu-quick">
-					<li><a href=""><img src="/resource/images/menu-quick01.png" alt=""><p>공지사항</p></a></li>
-					<li><a href=""><img src="/resource/images/menu-quick02.png" alt=""><p>진료예약</p></a></li>
-					<li><a href=""><img src="/resource/images/menu-quick03.png" alt=""><p>진료시간</p></a></li>
-					<li><a href=""><img src="/resource/images/menu-quick04.png" alt=""><p>오시는길</p></a></li>
+				<ul class="menu-quick mb-show">
+					<li><a href="/notice/notice.php?jb_code=10"><img src="/resource/images/menu-quick01.png" alt=""><p>공지사항</p></a></li>
+					<li><a href="/notice/notice.php?jb_code=20"><img src="/resource/images/menu-quick02.png" alt=""><p>온라인상담</p></a></li>
+					<li><a href="/intro/page05.html"><img src="/resource/images/menu-quick03.png" alt=""><p>진료안내</p></a></li>
+					<li><a href="/intro/page06.html"><img src="/resource/images/menu-quick04.png" alt=""><p>오시는길</p></a></li>
 				</ul>
 				<ul class="menu inner">
 					<li>
@@ -76,12 +76,12 @@
                             <li>
                                 <a href="/intro/page02.html">의료진소개</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="/intro/page03.html">장비소개</a>
                             </li>
                             <li>
                                 <a href="/intro/page04.html">병원 둘러보기</a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="/intro/page05.html">진료안내</a>
                             </li>

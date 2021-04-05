@@ -11,8 +11,8 @@
                         <ul class="n4">
                             <li><a href="/intro/page01.html">병원소개</a></li>
                             <li><a href="/intro/page02.html">의료진 소개</a></li>
-                            <li><a href="/intro/page03.html">장비 소개</a></li>
-                            <li><a href="/intro/page04.html">병원 둘러보기</a></li>
+                            <li><a href="#none" onclick="alert('준비중입니다.')">장비 소개</a></li>
+                            <li><a href="#none" onclick="alert('준비중입니다.')">병원 둘러보기</a></li>
                             <li><a href="/intro/page05.html">진료안내</a></li>
                             <li><a href="/intro/page06.html">오시는 길</a></li>
                         </ul>

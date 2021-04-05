@@ -60,10 +60,21 @@ $(function(){
 	//햄버거 버튼
 	$(".menu-button").on("click", function (e) {
 		$(this).toggleClass("cross");
+		$('.nav-top, .nav-bottom, .mobile-bg').toggleClass("on");
 		$('.nav-bottom.on .menu>li>a').click(function () { return false; });
 		$('.nav-bottom.on .menu>li>a').on("click", function () {
-			$(this).siblings('.sub-menu').toggleClass('on');
+			$(this).parent('li').toggleClass('on').siblings().removeClass('on');
 		});
 	});
+
+	// if ($(window).width() <= 720){
+	// 	$("#location").prepend(
+	// 		$('.menu').clone()
+	// 	)
+	// 	$("#location .sub-menu").remove();
+	// 	$("#location ul").on("click",function(){
+	// 		$(this).addClass('on').siblings().removeClass('on');
+	// 	});
+	// }
 	
 });

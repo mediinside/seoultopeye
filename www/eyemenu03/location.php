@@ -8,6 +8,29 @@
                     </p>
                     <i></i>
                     <div id="location">
+                        <!-- <ul class="menu inner">
+                            <li>
+                                <a href="#">병원소개</a>
+                            </li>
+                            <li>
+                                <a href="#">백내장/노안</a>
+                            </li>
+                            <li>
+                                <a href="#">망막질환</a>
+                            </li>
+                            <li>
+                                <a href="#">녹내장</a>
+                            </li>
+                            <li>
+                                <a href="#">안구건조증</a>
+                            </li>
+                            <li>
+                                <a href="#">안구종합검진</a>
+                            </li>
+                            <li>
+                                <a href="#">커뮤니티</a>
+                            </li>
+                        </ul> -->
                         <ul>
                             <li><a href="/eyemenu03/page01.html">녹내장이란?</a></li>
                             <li><a href="/eyemenu03/page02.html">녹내장치료</a></li>

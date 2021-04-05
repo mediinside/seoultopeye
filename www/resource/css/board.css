@@ -703,8 +703,8 @@
 
 .pagination .btn.current {
 	color: #fff !important;
-	border-color: #f19d9d;
-	background-color: #f19d9d;
+	border-color: #2f65bd;
+	background-color: #2f65bd;
 	cursor: default;
 }
 

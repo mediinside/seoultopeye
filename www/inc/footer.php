@@ -7,12 +7,12 @@
 					<li>
 						<a href="/intro/page06.html">오시는길</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="/member/agree1.html">개인정보취급방침</a>
 					</li>
 					<li>
 						<a href="/member/agree2.html">이용안내</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 			<div class="bottom">
