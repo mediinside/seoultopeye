@@ -18,6 +18,8 @@
 				<i></i><span>카톡상담</span>
 			</a>
 		</div>
+
+		<div class="mobile-bg"></div>
 		<header>
 			<div class="nav-top">
 				<div class="inner">
@@ -51,8 +53,19 @@
 					<p>고객센터</p>
 					<a href="tel:0439038000">043.903.<span class="point-b">8000</span></a>
 				</div>
+				<a href="#none" class="menu-button">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</a>
 			</div>
 			<div class="nav-bottom">
+				<ul class="menu-quick">
+					<li><a href=""><img src="/resource/images/menu-quick01.png" alt=""><p>공지사항</p></a></li>
+					<li><a href=""><img src="/resource/images/menu-quick02.png" alt=""><p>진료예약</p></a></li>
+					<li><a href=""><img src="/resource/images/menu-quick03.png" alt=""><p>진료시간</p></a></li>
+					<li><a href=""><img src="/resource/images/menu-quick04.png" alt=""><p>오시는길</p></a></li>
+				</ul>
 				<ul class="menu inner">
 					<li>
 						<a href="#">병원소개</a>

@@ -56,4 +56,14 @@ $(function(){
 	//서브페이지 최하단 배너
 	var pageText = $("#sub-bnnr .cont h2").text();
 	$("#sub-bottom-bnnr .cont h2 em").text(pageText);
+
+	//햄버거 버튼
+	$(".menu-button").on("click", function (e) {
+		$(this).toggleClass("cross");
+		$('.nav-bottom.on .menu>li>a').click(function () { return false; });
+		$('.nav-bottom.on .menu>li>a').on("click", function () {
+			$(this).siblings('.sub-menu').toggleClass('on');
+		});
+	});
+	
 });
